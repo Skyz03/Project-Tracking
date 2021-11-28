@@ -2,41 +2,56 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
   <title>Frontend Mentor | Project tracking intro component</title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="./assets/css/main.css">
-
+  <link rel="stylesheet" href="./assets/css/main.css" />
 </head>
 
 <body>
-  Product
-  Features
-  Pricing
-  Login
 
-  New
-  Monograph Dashboard
+  <main class="main" id="main">
 
-  Powerful insights into your team
-  Project planning and time tracking for agile teams
+    <nav class="navbar">
+      <picture>
+        <img src="./images/logo.svg" alt="logo-img">
+      </picture>
 
-  Schedule a demo
-  to see a live preview
+      <ul class="navigation">
+        <a href="#">
+          <li class="navigation__item">Product</li>
+        </a>
+        <a href="#">
+          <li class="navigation__item">Features</li>
+        </a>
+        <a href="#">
+          <li class="navigation__item">Pricing</li>
+        </a>
+        <a href="#">
+          <li class="navigation__item"> Login</li>
+        </a>
+      </ul>
 
+    </nav>
 
-
+    <section class="hero" id="hero">
+      New Monograph Dashboard Powerful insights
+      into your team Project planning and time tracking for agile teams Schedule
+      a demo to see a live preview
+    </section>
+  </main>
 
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+        href="#">Your Name Here</a>.
     </p>
   </footer>
 </body>

@@ -30,4 +30,27 @@ ol[role=list] {
 
 .attribution a {
   color: #3e52a3;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.navigation {
+  display: flex;
+}
+.navigation__item {
+  padding: 1rem;
+}
+.navigation a {
+  text-decoration: none;
+}
+.navigation li {
+  list-style: none;
+  color: #242942;
+  text-transform: uppercase;
 }/*# sourceMappingURL=main.css.map */
