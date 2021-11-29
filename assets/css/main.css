@@ -38,6 +38,7 @@ nav {
   align-items: center;
   width: 80%;
   margin: 2rem auto;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 .navigation {
@@ -45,6 +46,7 @@ nav {
 }
 .navigation__item {
   padding: 1rem;
+  font-weight: 700;
 }
 .navigation a {
   text-decoration: none;
@@ -53,4 +55,9 @@ nav {
   list-style: none;
   color: #242942;
   text-transform: uppercase;
+}
+
+.log-btn {
+  padding-left: 3rem;
+  color: #a0a1ac !important;
 }/*# sourceMappingURL=main.css.map */
