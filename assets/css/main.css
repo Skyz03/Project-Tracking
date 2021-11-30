@@ -23,6 +23,20 @@ ol[role=list] {
   list-style: none;
 }
 
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.hero__text {
+  color: red;
+}
+.hero__img {
+  position: relative;
+  left: 18rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;

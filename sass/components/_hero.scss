@@ -1,3 +1,19 @@
+@use "../abstracts/mixins" as *;
+
+.hero {
+  @include flex-center;
+  position: relative;
+
+  &__text {
+    color: red;
+  }
+
+  &__img {
+    position: relative;
+    left: 18rem;
+  }
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
