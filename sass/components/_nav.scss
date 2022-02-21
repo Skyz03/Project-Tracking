@@ -7,10 +7,17 @@ nav {
   width: 80%;
   margin: 2rem auto;
   font-family: "Barlow Condensed", sans-serif;
+
+  .icon {
+    display: none;
+    text-decoration: none;
+    color: #000;
+  }
 }
 
 .navigation {
   display: flex;
+  align-items: center;
 
   &__item {
     padding: 1rem;
@@ -31,4 +38,35 @@ nav {
 .log-btn {
   padding-left: 3rem;
   color: $Grayish-Blue !important;
+}
+
+@media (max-width: 700px) {
+  nav {
+    flex-direction: column;
+    align-items: unset;
+    position: relative;
+
+    .icon {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      font-size: 2rem;
+    }
+  }
+
+  .navigation {
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px #000;
+    margin-top: 1.5rem;
+
+    &__item {
+      display: none;
+    }
+  }
+
+  .active {
+    display: block;
+  }
 }
