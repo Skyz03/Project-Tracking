@@ -82,7 +82,7 @@ nav .icon {
   color: #a0a1ac !important;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   nav {
     flex-direction: column;
     align-items: unset;
@@ -95,15 +95,27 @@ nav .icon {
     top: 0;
     font-size: 2rem;
   }
+  nav .icon #icon-cross {
+    display: none;
+  }
 
   .navigation {
     flex-direction: column;
     background-color: #fff;
-    box-shadow: 1px 1px 10px #000;
+    box-shadow: -7px 7px 15px #ebedf4;
     margin-top: 1.5rem;
   }
   .navigation__item {
     display: none;
+  }
+  .navigation__links {
+    width: 80%;
+    text-align: center;
+  }
+
+  .log-btn {
+    border-top: 2px solid #ebedf4;
+    padding: 1em 0;
   }
 
   .active {
