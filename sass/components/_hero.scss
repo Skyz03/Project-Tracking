@@ -1,23 +1,38 @@
 @use "../abstracts/mixins" as *;
+@use "../abstracts/variables" as *;
 
 .hero {
   @include flex-center;
   position: relative;
 
+  // HERO TEXT SECTION START
   &__text {
-    color: red;
   }
 
+  &__thin {
+    text-transform: uppercase;
+    font-family: "Barlow Condensed", sans-serif;
+    // font-family: "Barlow", sans-serif;
+    color: $Grayish-Blue;
+  }
+
+  &__submit {
+    display: flex;
+  }
+  // HERO TEXT SECTION END
+
+  // HERO IMG SECTION START
   &__img {
     position: relative;
     left: 18rem;
   }
+  // HERO IMG SECTION END
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
+// .attribution {
+//   font-size: 11px;
+//   text-align: center;
+// }
+// .attribution a {
+//   color: hsl(228, 45%, 44%);
+// }

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap");
+/* SCSS HEX */
 /* Box sizing rules */
 *,
 *::before,
@@ -29,21 +30,17 @@ ol[role=list] {
   justify-content: center;
   position: relative;
 }
-.hero__text {
-  color: red;
+.hero__thin {
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #a0a1ac;
+}
+.hero__submit {
+  display: flex;
 }
 .hero__img {
   position: relative;
   left: 18rem;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: #3e52a3;
 }
 
 nav {
