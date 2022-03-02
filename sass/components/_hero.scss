@@ -16,9 +16,40 @@
     color: $Grayish-Blue;
   }
 
+  &__title {
+    font-family: "Barlow Condensed", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4rem;
+  }
+
+  &__para {
+    max-width: 40%;
+    width: 100%;
+    font-family: "Barlow Condensed", sans-serif;
+    color: $Grayish-Blue;
+  }
+
   &__submit {
     display: flex;
+    margin-top: 3em;
+    align-items: center;
   }
+
+  &__submit_btn {
+    margin-right: 2rem;
+    font-family: "Barlow Condensed", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: $primary-Red;
+    color: $Light-Grayish-Blue;
+    border: 0;
+    padding: 1em;
+    border-radius: 5px;
+    letter-spacing: 0.07em;
+    font-size: 1rem;
+  }
+
   // HERO TEXT SECTION END
 
   // HERO IMG SECTION START

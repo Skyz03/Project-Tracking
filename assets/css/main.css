@@ -35,8 +35,35 @@ ol[role=list] {
   font-family: "Barlow Condensed", sans-serif;
   color: #a0a1ac;
 }
+.hero__title {
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 4rem;
+}
+.hero__para {
+  max-width: 40%;
+  width: 100%;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #a0a1ac;
+}
 .hero__submit {
   display: flex;
+  margin-top: 3em;
+  align-items: center;
+}
+.hero__submit_btn {
+  margin-right: 2rem;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #ff5c5c;
+  color: #eef3f6;
+  border: 0;
+  padding: 1em;
+  border-radius: 5px;
+  letter-spacing: 0.07em;
+  font-size: 1rem;
 }
 .hero__img {
   position: relative;
