@@ -51,8 +51,8 @@ nav {
 
   .navigation {
     flex-direction: column;
-    background-color: #fff;
-    box-shadow: -7px 7px 15px #ebedf4;
+    background-color: $color-white;
+    box-shadow: -7px 7px 15px $color-shadow;
     margin-top: 1.5rem;
 
     &__item {
@@ -63,11 +63,12 @@ nav {
       width: 80%;
       text-align: center;
     }
-  }
 
-  .log-btn {
-    border-top: 2px solid #ebedf4;
-    padding: 1em 0;
+    &__log {
+      margin-left: 0;
+      border-top: 2px solid $color-shadow;
+      padding: 1em 0;
+    }
   }
 
   .active {

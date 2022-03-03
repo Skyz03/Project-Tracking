@@ -126,8 +126,8 @@ nav .icon {
     width: 80%;
     text-align: center;
   }
-
-  .log-btn {
+  .navigation__log {
+    margin-left: 0;
     border-top: 2px solid #ebedf4;
     padding: 1em 0;
   }
