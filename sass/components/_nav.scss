@@ -1,13 +1,6 @@
 @use "../abstracts/variables" as *;
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 80%;
-  margin: 2rem auto;
-  font-family: "Barlow Condensed", sans-serif;
-
   .icon {
     display: none;
     text-decoration: none;

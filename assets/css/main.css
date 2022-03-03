@@ -70,14 +70,6 @@ ol[role=list] {
   left: 18rem;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 80%;
-  margin: 2rem auto;
-  font-family: "Barlow Condensed", sans-serif;
-}
 nav .icon {
   display: none;
   text-decoration: none;
@@ -145,4 +137,17 @@ nav .icon {
   .active {
     display: block;
   }
+}
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto;
+  font-family: "Barlow Condensed", sans-serif;
 }/*# sourceMappingURL=main.css.map */

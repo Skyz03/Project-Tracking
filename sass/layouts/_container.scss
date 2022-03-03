@@ -1,0 +1,13 @@
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto;
+  font-family: "Barlow Condensed", sans-serif;
+}
