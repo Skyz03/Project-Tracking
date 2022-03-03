@@ -1,10 +1,11 @@
 @use "../abstracts/variables" as *;
 
 nav {
+  // MOBILE MENU
   .icon {
     display: none;
     text-decoration: none;
-    color: #000;
+    color: $color-black;
   }
 }
 
@@ -17,28 +18,24 @@ nav {
     font-weight: 700;
   }
 
-  a {
+  &__links {
     text-decoration: none;
   }
 
-  li {
+  &__item {
     list-style: none;
     color: $Very-Dark-Blue;
     text-transform: uppercase;
   }
-}
 
-.log-btn {
-  padding-left: 3rem;
-  color: $Grayish-Blue !important;
+  &__log {
+    margin-left: 3rem;
+    color: $Grayish-Blue;
+  }
 }
 
 @media (max-width: 600px) {
   nav {
-    flex-direction: column;
-    align-items: unset;
-    position: relative;
-
     .icon {
       display: block;
       position: absolute;
