@@ -34,9 +34,11 @@ body {
   justify-content: center;
   position: relative;
 }
+.hero__text {
+  width: 45%;
+}
 .hero__black {
   display: inline-block;
-  width: 25%;
   background-color: #000;
   color: #fff;
   padding: 5px 17px;
@@ -81,8 +83,7 @@ body {
   font-size: 1rem;
 }
 .hero__img {
-  position: relative;
-  left: 18rem;
+  width: 50%;
 }
 
 nav .icon {
