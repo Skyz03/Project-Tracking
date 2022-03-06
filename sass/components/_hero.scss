@@ -9,11 +9,23 @@
   &__text {
   }
 
+  &__black {
+    display: inline-block;
+    width: 25%;
+    background-color: $color-black;
+    color: $color-white;
+    padding: 5px 17px;
+    border-radius: 15px;
+    font-family: "Barlow Condensed", sans-serif;
+    margin-right: 1em;
+  }
+
   &__thin {
     text-transform: uppercase;
     font-family: "Barlow Condensed", sans-serif;
     // font-family: "Barlow", sans-serif;
     color: $Grayish-Blue;
+    letter-spacing: 0.08em;
   }
 
   &__title {

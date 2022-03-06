@@ -34,10 +34,21 @@ body {
   justify-content: center;
   position: relative;
 }
+.hero__black {
+  display: inline-block;
+  width: 25%;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 17px;
+  border-radius: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+  margin-right: 1em;
+}
 .hero__thin {
   text-transform: uppercase;
   font-family: "Barlow Condensed", sans-serif;
   color: #a0a1ac;
+  letter-spacing: 0.08em;
 }
 .hero__title {
   font-family: "Barlow Condensed", sans-serif;
