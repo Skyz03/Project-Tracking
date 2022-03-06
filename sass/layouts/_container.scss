@@ -31,8 +31,8 @@
   margin: 2rem auto;
   font-family: "Barlow Condensed", sans-serif;
 
-  @media (max-width: 600px) {
-    flex-direction: column;
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
     align-items: unset;
     position: relative;
   }

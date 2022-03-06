@@ -8,6 +8,10 @@
   // HERO TEXT SECTION START
   &__text {
     width: 45%;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
   }
 
   &__black {
@@ -64,8 +68,8 @@
     &:hover {
       background-color: $Light-Grayish-Blue;
       color: $primary-Red;
-      border: 1px solid $primary-Red;
       cursor: pointer;
+      border: 0;
     }
   }
 
@@ -74,6 +78,17 @@
   // HERO IMG SECTION START
   &__img {
     width: 50%;
+
+    @media (max-width: 768px) {
+      width: 100%;
+
+      img {
+        width: auto;
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+      }
+    }
   }
   // HERO IMG SECTION END
 }

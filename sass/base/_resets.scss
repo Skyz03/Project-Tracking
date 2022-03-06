@@ -24,4 +24,8 @@ ol[role="list"] {
 
 body {
   overflow: hidden;
+
+  @media (max-width: 768px) {
+    overflow: visible;
+  }
 }

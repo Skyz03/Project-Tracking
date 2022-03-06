@@ -27,6 +27,11 @@ ol[role=list] {
 body {
   overflow: hidden;
 }
+@media (max-width: 768px) {
+  body {
+    overflow: visible;
+  }
+}
 
 .hero {
   display: flex;
@@ -36,6 +41,11 @@ body {
 }
 .hero__text {
   width: 45%;
+}
+@media (max-width: 768px) {
+  .hero__text {
+    width: 100%;
+  }
 }
 .hero__black {
   display: inline-block;
@@ -85,11 +95,24 @@ body {
 .hero__submit_btn:hover {
   background-color: #eef3f6;
   color: #ff5c5c;
-  border: 1px solid #ff5c5c;
   cursor: pointer;
+  border: 0;
 }
 .hero__img {
   width: 50%;
+}
+@media (max-width: 768px) {
+  .hero__img {
+    width: 100%;
+  }
+  .hero__img img {
+    width: auto;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .hero__img img {
+    width: 100%;
+  }
 }
 
 nav .icon {
@@ -195,9 +218,9 @@ nav .icon {
   margin: 2rem auto;
   font-family: "Barlow Condensed", sans-serif;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .row {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: unset;
     position: relative;
   }
