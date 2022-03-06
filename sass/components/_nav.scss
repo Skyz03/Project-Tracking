@@ -16,6 +16,10 @@ nav {
   &__item {
     padding: 1rem;
     font-weight: 700;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   &__links {

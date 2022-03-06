@@ -82,6 +82,12 @@ body {
   letter-spacing: 0.07em;
   font-size: 1rem;
 }
+.hero__submit_btn:hover {
+  background-color: #eef3f6;
+  color: #ff5c5c;
+  border: 1px solid #ff5c5c;
+  cursor: pointer;
+}
 .hero__img {
   width: 50%;
 }
@@ -99,6 +105,9 @@ nav .icon {
 .navigation__item {
   padding: 1rem;
   font-weight: 700;
+}
+.navigation__item:hover {
+  text-decoration: underline;
 }
 .navigation__links {
   text-decoration: none;
