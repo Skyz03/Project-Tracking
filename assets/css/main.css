@@ -150,7 +150,7 @@ nav .icon {
     display: block;
     position: absolute;
     right: 0;
-    top: 0;
+    top: -5px;
     font-size: 2rem;
   }
   nav .icon #icon-cross {
@@ -162,6 +162,10 @@ nav .icon {
     background-color: #fff;
     box-shadow: -7px 7px 15px #ebedf4;
     margin-top: 1.5rem;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 2rem;
   }
   .navigation__item {
     display: none;
@@ -220,8 +224,11 @@ nav .icon {
 }
 @media (max-width: 768px) {
   .row {
-    flex-direction: column-reverse;
     align-items: unset;
     position: relative;
   }
+}
+
+.reverse {
+  flex-direction: column-reverse;
 }/*# sourceMappingURL=main.css.map */
