@@ -229,6 +229,8 @@ nav .icon {
   }
 }
 
-.reverse {
-  flex-direction: column-reverse;
+@media (max-width: 768px) {
+  .reverse {
+    flex-direction: column-reverse;
+  }
 }/*# sourceMappingURL=main.css.map */
