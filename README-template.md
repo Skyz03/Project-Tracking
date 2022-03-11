@@ -19,6 +19,7 @@ This is a solution to the [Project tracking intro component challenge on Fronten
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+This is a cool challenge where I could practice the skill of navigation especially mobile menu to appear and disapper with understanding the inner width of the device. Also, I got a oppurtinity to pratice some basic skills.
 
 ### The challenge
 
@@ -30,15 +31,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://user-images.githubusercontent.com/42742924/157889831-61d24017-1de4-4cdb-84dc-cbbd216070a8.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
