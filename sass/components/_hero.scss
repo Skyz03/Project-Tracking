@@ -27,7 +27,6 @@
   &__thin {
     text-transform: uppercase;
     font-family: "Barlow Condensed", sans-serif;
-    // font-family: "Barlow", sans-serif;
     color: $Grayish-Blue;
     letter-spacing: 0.08em;
   }
@@ -72,7 +71,6 @@
       border: 0;
     }
   }
-
   // HERO TEXT SECTION END
 
   // HERO IMG SECTION START
@@ -92,11 +90,3 @@
   }
   // HERO IMG SECTION END
 }
-
-// .attribution {
-//   font-size: 11px;
-//   text-align: center;
-// }
-// .attribution a {
-//   color: hsl(228, 45%, 44%);
-// }
