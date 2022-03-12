@@ -24,17 +24,18 @@ nav {
 
   &__links {
     text-decoration: none;
+    color: $Very-Dark-Blue;
   }
 
   &__item {
     list-style: none;
-    color: $Very-Dark-Blue;
     text-transform: uppercase;
   }
 
   &__log {
+    text-decoration: none;
     margin-left: 3rem;
-    color: $Grayish-Blue;
+    color: $Grayish-Blue !important;
   }
 }
 

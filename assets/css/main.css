@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap");
-/* SCSS HEX */
 /* Box sizing rules */
 *,
 *::before,
@@ -134,15 +133,16 @@ nav .icon {
 }
 .navigation__links {
   text-decoration: none;
+  color: #242942;
 }
 .navigation__item {
   list-style: none;
-  color: #242942;
   text-transform: uppercase;
 }
 .navigation__log {
+  text-decoration: none;
   margin-left: 3rem;
-  color: #a0a1ac;
+  color: #a0a1ac !important;
 }
 
 @media (max-width: 600px) {

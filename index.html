@@ -1,92 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- RESIZE THE SITE ACCORDING TO DEVICE WIDTH -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <!-- RESIZE THE SITE ACCORDING TO DEVICE WIDTH -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FAVICON FOR   -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- FAVICON FOR   -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <!-- FONTAWESOME  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-  <!-- FONTAWESOME  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Frontend Mentor | Project tracking intro component</title>
 
-  <title>Frontend Mentor | Project tracking intro component</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="./assets/css/main.css" />
-</head>
+  <body>
+    <main class="main" id="main">
+      <!-- NAVIGATION SECTION START -->
+      <nav class="navbar">
+        <div class="container">
+          <div class="row">
+            <!-- NAV HERO  -->
+            <picture>
+              <img
+                src="./images/logo.svg"
+                alt="logo-img"
+                height="100%"
+                width="100%"
+              />
+            </picture>
 
-<body>
-
-  <main class="main" id="main">
-
-    <!-- NAVIGATION SECTION START -->
-    <nav class="navbar">
-      <div class="container">
-        <div class="row">
-
-          <!-- NAV HERO  -->
-          <picture>
-            <img src="./images/logo.svg" alt="logo-img" height="auto" width="auto">
-          </picture>
-
-          <!-- MOBILE MENU  -->
-          <a href="javascript:void(0);" class="icon">
-            <i id="icon-bars" class="fa fa-bars"></i>
-            <i id="icon-cross" class="fa fa-times" aria-hidden="true"></i>
-          </a>
-
-          <!-- NAVITEMS  -->
-          <ul class="navigation" id="myTopnav">
-            <a href="#" class="navigation__links">
-              <li class="navigation__item">Product</li>
+            <!-- MOBILE MENU  -->
+            <a href="javascript:void(0);" class="icon">
+              <i id="icon-bars" class="fa fa-bars"></i>
+              <i id="icon-cross" class="fa fa-times" aria-hidden="true"></i>
             </a>
-            <a href="#" class="navigation__links">
-              <li class="navigation__item">Features</li>
-            </a>
-            <a href="#" class="navigation__links">
-              <li class="navigation__item">Pricing</li>
-            </a>
-            <a href="#" class="navigation__links">
-              <li class="navigation__log navigation__item"> Login</li>
-            </a>
-          </ul>
+
+            <!-- NAVITEMS  -->
+            <ul class="navigation" id="myTopnav">
+              <li class="navigation__item">
+                <a href="#" class="navigation__links">Product</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__links">Features</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__links">Pricing</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__log">Login</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <!-- NAVIGATION SECTION ENDS HERE -->
+      </nav>
+      <!-- NAVIGATION SECTION ENDS HERE -->
 
-    <!-- HERO SECTION STARTS HERE  -->
-    <section class="hero" id="hero">
-      <div class="container">
-        <div class="row reverse">
+      <!-- HERO SECTION STARTS HERE  -->
+      <section class="hero" id="hero">
+        <div class="container">
+          <div class="row reverse">
+            <!-- FIRST COL -->
+            <div class="hero__text">
+              <p class="hero__thin">
+                <span class="hero__black"> New </span>Monograph Dashboard
+              </p>
+              <h1 class="hero__title">Powerful insights into your team</h1>
+              <p class="hero__para">
+                Project planning and time tracking for agile teams
+              </p>
 
-          <!-- FIRST COL -->
-          <div class="hero__text">
+              <div class="hero__submit">
+                <button class="hero__submit_btn">Schedule a demo</button>
+                <p class="hero__thin">to see a live preview</p>
+              </div>
+            </div>
 
-            <p class="hero__thin"> <span class="hero__black"> New </span>Monograph Dashboard</p>
-            <h1 class="hero__title"> Powerful insights
-              into your team</h1>
-            <p class="hero__para"> Project planning and time tracking for agile teams </p>
-
-            <div class="hero__submit">
-              <button class="hero__submit_btn"> Schedule a demo</button>
-              <p class="hero__thin"> to see a live preview</p>
+            <!-- SECOND COL -->
+            <div class="hero__img">
+              <img
+                src="./images/illustration-devices.svg"
+                alt="illustation-of-devices"
+              />
             </div>
           </div>
-          
-          <!-- SECOND COL -->
-          <div class="hero__img">
-            <img src="./images/illustration-devices.svg" alt="illustation-of-devices">
-          </div>
         </div>
-      </div>
-    </section>
-    <!-- HERO SECTION ENDS HERE  -->
-  </main>
-  <script src="./app.js"></script>
-</body>
-
+      </section>
+      <!-- HERO SECTION ENDS HERE  -->
+    </main>
+    <script src="./app.js"></script>
+  </body>
 </html>
